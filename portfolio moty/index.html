@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+
+    <!--feather icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!--My Style-->
+    <link rel="stylesheet" href="style.css" />
+
+    
+
+    <!-- Box -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <header>
+      <div href="#" class="logo"><span>T</span>himoty.</div>
+      <div class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </div>
+      <div class="bx bx-moon" id="darkmode"></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <!-- Navbar section -->
+
+    <!-- Home section start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Thimoty Pascal Munthe</h1>
+        <h3>And I'm <span id="multiText"></span></h3>
+        <p>Lorem ipsum dolor, <br />sit amet consectetur adipisicing elit. Ex, perspiciatis?</p>
+        <div class="info-box">
+          <div class="email-info">
+            <h5>Email :</h5>
+            <span>thimotypascal986@gmail.com</span>
+          </div>
+
+          <div class="btn-box">
+            <a href="#" class="btn">Hire Me Now</a>
+          </div>
+
+          <div class="social-icons">
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-tiktok"></i></a>
+            <a href="#"><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="content">
+          <img src="image/bub.JPG" alt="" />
+          <h2>Someone Famous <br /><span>Thimoty Pascal</span></h2>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#multiText', {
+        strings: ['Mahasiswa', 'Youtuber', 'FrontEnd Developer'],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+      });
+    </script>
+    <!-- Home section End -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="box-about">
+        <div class="content-about">
+          <img src="image/bub2.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="text-about">
+        <h2>About <span>Me</span></h2>
+        <h4>FrontEnd Developer</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero soluta ad recusandae maiores. Aspernatur, accusamus nostrum? Eos optio, incidunt rerum similique sunt molestiae magni dolore labore officia necessitatibus debitis
+          assumenda nobis repellat fuga amet molestias cupiditate quibusdam sint eaque adipisci?
+        </p>
+
+        <a href="#" class="btn-box">More About Me</a>
+      </div>
+    </section>
+    <!-- About Section End -->
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="main-text">
+        <span>technical and professional</span>
+        <h2>My Skills</h2>
+      </div>
+
+      <div class="skill-main">
+        <div class="skill-left">
+          <h3>Techincal Skills</h3>
+          <div class="skill-bar">
+            <div class="info">
+              <p>HTML</p>
+              <p>72%</p>
+            </div>
+            <div class="bar">
+              <span class="html"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>CSS</p>
+              <p>72%</p>
+            </div>
+            <div class="bar">
+              <span class="css"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>JavaScript</p>
+              <p>60%</p>
+            </div>
+            <div class="bar">
+              <span class="javascript"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>Figma</p>
+              <p>70%</p>
+            </div>
+            <div class="bar">
+              <span class="figma"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-right">
+          <h3>Professional Skills</h3>
+          <div class="container">
+            <div class="card">
+              <div class="percent" style="--clr: #0ef; --num: 80">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>85 <span>%</span></h2>
+                  <p>HTML</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="percent" style="--clr: #0ef; --num: 80">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>80 <span>%</span></h2>
+                  <p>CSS</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="percent" style="--clr: #0ef; --num: 60">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>60 <span>%</span></h2>
+                  <p>JavaScript</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="percent" style="--clr: #0ef; --num: 70">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>70 <span>%</span></h2>
+                  <p>Figma</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section End-->
+
+    <!-- Gallery section -->
+    <section class="gallery" id="gallery">
+      <h2>Gallery Me</h2>
+      <div class="img-gallery">
+        <img src="image/1.jpg" />
+        <img src="image/2.jpg" />
+        <img src="image/3.jpg" />
+        <img src="image/4.jpg" />
+        <img src="image/5.jpg" />
+        <img src="image/6.jpg" />
+        <img src="image/7.jpg" />
+        <img src="image/8.jpg" />
+      </div>
+    </section>
+    <!-- Gallery section End -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="container">
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span class="text">First Name</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span class="text">Last Name</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span class="text">Email</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span class="text">Mobile</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          </div>
+          <div class="row100">
+            <div class="col">
+              <div class="inputBox textarea">
+                <textarea required="required"></textarea>
+                <span class="text">Type your message Here...</span>
+                <span class="line"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row100">
+            <div class="col">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!--Father Icons-->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- my javaScirpt -->
+    <script src="script.js"></script>
+  </body>
+</html>
